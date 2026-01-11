@@ -1,0 +1,52 @@
+.banner-container {
+    display: flex;
+    background-color: rgba(62, 161, 255, 0.04);
+}
+
+.banner-content {
+    gap: 8px;
+}
+
+
+
+.banner-subheading>p {
+    color: #5C5C5C;
+}
+
+.banner-buttons {
+    display: flex;
+    margin: 20px 0 0 10px;
+    gap: 28px;
+}
+
+.banner-buttons>button {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.banner-appointment-button {
+    background-color: #174EB2;
+    color: #FFF;
+}
+
+.banner-learn-button {
+    color: #174EB2;
+    background-color: #FFF;
+    border: 1px solid #174EB2;
+}
+
+.banner-learn-button:hover {
+    color: #FFF;
+    background-color: #174EB2;
+}
+
+.banner-graphic {
+    position: relative;
+}
+
+
+.banner-graphic>img:first-child {
+    width: 500px;
+}
+
+
